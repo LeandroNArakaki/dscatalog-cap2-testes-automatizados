@@ -10,7 +10,7 @@ public class ProductFactory {
 
     public static Product createProduct(){
         Product product = new Product(1L,"Phone","Good Phone",800.0,"https://www.apple.com/br/shop/buy-iphone", Instant.parse("2020-10-20T03:00:00Z"));
-        product.getCategories().add( new Category(2L,"Electronics"));
+        product.getCategories().add(CategoryFactory.createCategory());
         return product;
     }
 
