@@ -33,11 +33,7 @@ public class ProductServiceIT {
 
     private long existingId;
     private long nonExistingId;
-    private long dependentId;
     private long countTotalProducts;
-    private Product product;
-    private ProductDTO productDTO;
-    private Category category;
 
 
     @BeforeEach
